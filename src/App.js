@@ -1,11 +1,14 @@
 import "./App.css";
 import Nav from "./componentes/Nav";
+import Main from "./componentes/Main";
+import Footer from "./componentes/Footer";
 
 const App = () => {
   return (
     <div className = "contenedor">
       <Nav></Nav>
-      <h1>Hola</h1>
+      <Main></Main>
+      <Footer></Footer>
     </div>
   )
 }
