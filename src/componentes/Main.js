@@ -1,9 +1,17 @@
-import "../styles/Main.css"
+import "../styles/Main.css";
+import Card from "./Card";
 
 const Main = () => {
     return (
-        <main className = "main">
+        <main className="main">
             <h1>Bienvenidas a React</h1>
+            <div className="tarjetas">
+                <Card />
+                <Card />
+                <Card />
+            </div>
+
+
         </main>
     )
 }
